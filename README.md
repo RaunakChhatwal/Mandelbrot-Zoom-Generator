@@ -37,7 +37,7 @@ The output will look like this:
 
 The aim of this project is to produce very high magnification zooms of the set. Even for a quick two-minute (on a 12th gen i7) run, a 3750x magnification can be achieved with the following command:
 ```
-main -0.16385+1.0974i -0.16305+1.0982i 3000x3000 test/test11.png
+main -0.16385+1.0974i -0.16305+1.0982i 3000x3000 result2.png
 ```
 
 Before running the above, change the “iterations” parameter in the include/params.hpp file to 1024 and recompile. The output will look like this:
