@@ -21,7 +21,7 @@
       ];
 
       CXXCOMPILER = "${pkgs.clang_16.out}/bin/clang++";
-      CXXFLAGS = "-std=c++20 -Wall -Wextra -Wno-sign-compare -O3";
+      CXXFLAGS = "-std=c++20 -Wall -Wextra -Wno-sign-compare -LTO -O3";
       LDFLAGS = "-L${pkgs.libpng.out}/lib -lpng -L${pkgs.gmpxx.out}/lib -lgmp -lgmpxx";
 
       buildPhase = ''

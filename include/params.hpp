@@ -1,3 +1,4 @@
-constexpr int max_iterations = 256;
-constexpr int num_threads = 16;
-constexpr int unroll_factor = 16;
+constexpr int iterations = 256;
+constexpr int numThreads = 16;
+constexpr int unrollFactor = 16;
+constexpr int pixelsPerThread = 250000;
